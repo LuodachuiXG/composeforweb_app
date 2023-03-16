@@ -10,9 +10,10 @@ group "cc.loac.cc"
 version "1.0-SNAPSHOT"
 
 repositories {
+    maven("https://maven.aliyun.com/nexus/content/groups/public")
     google()
     mavenCentral()
-    maven("https://maven.aliyun.com/nexus/content/groups/public")
+
     maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
 }
 
